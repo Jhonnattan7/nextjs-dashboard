@@ -41,8 +41,7 @@ Para ejecutar tu propio entorno de desarrollo local, sigue estos pasos:
    ```bash
    pnpm install
 2. **Variables de Entorno**
-   POSTGRES_URL="postgresql://usuario:contraseña@servidor.neon.tech/neondb?sslmode=require"
-   AUTH_SECRET="tu-clave-secreta-generada"
+   Recuerda confirgurar tu .env con los datos de su base de datos y la auth generada
 
 3. **Inicializar la base de datos (opcional si es tu primera vez)**
   (Asegúrate de entrar a sitio/seed para poblar las tablas con datos y usuarios de prueba)
